@@ -6,7 +6,7 @@ namespace src.Responsabilidade
 {
     public class Usuario
     {
-        List<Usuario> database = new List<Usuario>(); // acoplamento
+        List<Usuario> database = new List<Usuario>();
 
         public Usuario(string nome, string email, string senha)
         {

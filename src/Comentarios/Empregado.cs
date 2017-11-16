@@ -10,7 +10,7 @@ namespace src.Comentarios
     {
         public void AplicarAposentadoria(Empregado empregado)
         {
-            // verifica se o empregado possui as condições necessário
+            // verifica se o empregado possui as condições necessárias para aposentadoria
             if (empregado.Idade >= 65 && empregado.TempoDeContribuicao >= 50)
 			{
 				/* */
